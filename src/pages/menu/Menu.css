@@ -1,0 +1,16 @@
+#heromugs {
+  height: 300px;
+  background-image: url("../../assets/images/threemugs.jpg");
+  background-size: 100% 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  #heromugs {
+    background-image: url("../../assets/images/heromugs.jpg");
+  }
+
+  #flow {
+    display: flex;
+    flex-direction: row;
+  }
+}

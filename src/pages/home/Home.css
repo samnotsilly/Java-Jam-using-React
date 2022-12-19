@@ -1,0 +1,28 @@
+#homehero {
+  height: 300px;
+  background-image: url("../../assets/images/road.jpg");
+  background-size: 100% 100%;
+}
+
+#mobile {
+  display: inline;
+}
+
+#desktop {
+  display: none;
+}
+
+@media only screen and (min-width: 600px) {
+  #homehero {
+    height: 50vh;
+    background-image: url("../../assets/images/hero.jpg");
+  }
+
+  #mobile {
+    display: none;
+  }
+
+  #desktop {
+    display: inline;
+  }
+}

@@ -1,0 +1,14 @@
+footer {
+  background-color: #d2b48c;
+  font-size: 0.6em;
+  text-align: center;
+  font-style: italic;
+  padding: 1em;
+  border-top: 2px solid #8c3826;
+}
+
+@media only screen and (min-width: 1024px) {
+  footer {
+    grid-area: footer;
+  }
+}
